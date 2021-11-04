@@ -7,7 +7,7 @@
 [![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
 
-> Awesome node modules.
+> 多页面开发构建工具，基于gulp搭建
 
 ## Installation
 
