@@ -31,7 +31,7 @@ or
 
 
 ## Tree
-```http
+```
 project
 │  .gitignore
 │  package.json
