@@ -1,22 +1,53 @@
-# gulp-mpa
 
-> 多页面开发构建工具，基于gulp搭建
+# GULP-MPA
 
-## Installation
+gulp + webpack 多页面构建方案
 
-```shell
-$ npm install gulp-mpa
 
-# or yarn
-$ yarn add gulp-mpa
-```
+## Authors
+
+- [@Rio](https://www.github.com/darknessYue)
+
 
 ## Usage
 
-<!-- TODO: Introduction of Usage -->
+#### install
 
-```javascript
-gulp-mpa dev
-gulp-mpa build
-// result => 'w@zce.me'
+```
+  npm install gulp-mpa -save-dev
+```
+or
+```
+  yarn gulp-mpa --dev
+```
+#### change scripts in package.json
+
+```
+  "scripts": {
+      "dev": "gulp-mpa dev",
+      "build": "gulp-mpa build"
+  }
+```
+
+
+## Tree
+```http
+project
+│  .gitignore
+│  package.json
+│       
+├─public
+│       
+├─temp
+│   
+├─dist  
+│              
+└─src
+    │  index.html
+    │  
+    └─assets
+        ├─css  (.scss)
+        ├─fonts
+        ├─images
+        └─js
 ```
